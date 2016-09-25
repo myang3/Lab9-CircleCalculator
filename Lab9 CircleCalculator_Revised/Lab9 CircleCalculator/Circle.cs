@@ -15,25 +15,21 @@ namespace Lab9_CircleCalculator
         {
             this.radius = radius;
             Circle.circleCount++;
-
         }
 
         public double getCircumference()
         {
             return (2 * Math.PI * radius);
-
         }
 
         public String getFormattedCircumference()
         {
             return formatNumber(getCircumference());
-
         }
 
         public double getArea()
         {
             return (Math.PI * radius * radius);
-
         }
 
         public String getFormattedArea()
@@ -44,13 +40,11 @@ namespace Lab9_CircleCalculator
         private String formatNumber(double x)
         {
             return string.Format("{0:0.00}", x);
-
         }
 
         public static int getObjectCount()
         {
             return Circle.circleCount;
         }
-
     }
 }
