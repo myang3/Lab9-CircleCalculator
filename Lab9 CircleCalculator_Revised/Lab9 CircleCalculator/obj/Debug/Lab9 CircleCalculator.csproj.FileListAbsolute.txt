@@ -1,0 +1,6 @@
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\bin\Debug\Lab9 CircleCalculator.exe.config
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\bin\Debug\Lab9 CircleCalculator.exe
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\bin\Debug\Lab9 CircleCalculator.pdb
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\obj\Debug\Lab9 CircleCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\obj\Debug\Lab9 CircleCalculator.exe
+C:\Users\Mo\Documents\Visual Studio 2015\Projects\Lab9 CircleCalculator\Lab9 CircleCalculator\obj\Debug\Lab9 CircleCalculator.pdb
