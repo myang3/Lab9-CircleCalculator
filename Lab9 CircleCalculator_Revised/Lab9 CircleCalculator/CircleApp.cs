@@ -27,11 +27,8 @@ namespace Lab9_CircleCalculator
                 keepGoing = Console.ReadLine();
             } while (keepGoing.ToLower() == "y" || keepGoing.ToLower() == "yes");
 
-            {
-                Console.WriteLine("Goodbye. You Created " + Circle.getObjectCount() + " Circle object (s).");
-            }
-            
-            Console.ReadLine();
+             Console.WriteLine("Goodbye. You Created " + Circle.getObjectCount() + " Circle object (s).");
+             Console.ReadLine();
         }
     }
 }
