@@ -37,7 +37,6 @@ namespace Lab9_CircleCalculator
 
             } while ((choice != "y") && (choice != "n"));
             return choice;
-
         }
     }
 }
