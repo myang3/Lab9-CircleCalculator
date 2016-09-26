@@ -20,7 +20,6 @@ namespace Lab9_CircleCalculator
                 Circle C = new Circle(radius);
                 Console.WriteLine("Circumference: " + C.getFormattedCircumference());
                 Console.WriteLine("Area: " + C.getFormattedArea());
-
                
             } while (Validator.continueOrQuit() == "y");
 
