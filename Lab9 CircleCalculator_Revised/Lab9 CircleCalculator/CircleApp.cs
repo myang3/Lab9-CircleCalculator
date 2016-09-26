@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +8,6 @@ namespace Lab9_CircleCalculator
 {
     class CircleApp
     {
-        static string keepGoing;
-
         static void Main(string[] args)
         {
             double radius;
@@ -23,12 +21,11 @@ namespace Lab9_CircleCalculator
                 Console.WriteLine("Circumference: " + C.getFormattedCircumference());
                 Console.WriteLine("Area: " + C.getFormattedArea());
 
-                Console.WriteLine("Continue? (y/n): ");
-                keepGoing = Console.ReadLine();
-            } while (keepGoing.ToLower() == "y" || keepGoing.ToLower() == "yes");
+               
+            } while (Validator.continueOrQuit() == "y");
 
-             Console.WriteLine("Goodbye. You Created " + Circle.getObjectCount() + " Circle object (s).");
-             Console.ReadLine();
+            Console.WriteLine("Goodbye. You Created " + Circle.getObjectCount() + " Circle object (s).");
+            Console.ReadLine();
         }
     }
 }
