@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,25 @@ namespace Lab9_CircleCalculator
                     Console.WriteLine("Invalid input. Please enter a valid radius: ");
                 }
             } while (radius <= 0);
+
             return radius;
+        }
+
+        public static string continueOrQuit()
+        {
+            string choice;
+            do
+            {
+                Console.WriteLine("Continue (y/n)");
+                choice = Console.ReadLine();
+                if((choice != "y") && (choice != "n"))
+                {
+                    Console.WriteLine("Incorrect Response, Please Try Again.");
+                }
+
+            } while ((choice != "y") && (choice != "n"));
+            return choice;
+
         }
     }
 }
